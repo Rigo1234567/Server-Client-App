@@ -1,0 +1,17 @@
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\obj\Debug\servidor_interfaz.csprojAssemblyReference.cache
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\obj\Debug\servidor_interfaz.Form1.resources
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\obj\Debug\servidor_interfaz.Properties.Resources.resources
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\obj\Debug\servidor_interfaz.csproj.GenerateResource.cache
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\obj\Debug\servidor_interfaz.csproj.CoreCompileInputs.cache
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\bin\Debug\servidor_interfaz.exe.config
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\bin\Debug\servidor_interfaz.exe
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\bin\Debug\servidor_interfaz.pdb
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\bin\Debug\entities.dll
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\bin\Debug\servidor_datos.dll
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\bin\Debug\entities.pdb
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\bin\Debug\servidor_datos.pdb
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\obj\Debug\servidor_interfaz.csproj.CopyComplete
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\obj\Debug\servidor_interfaz.exe
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_interfaz\obj\Debug\servidor_interfaz.pdb

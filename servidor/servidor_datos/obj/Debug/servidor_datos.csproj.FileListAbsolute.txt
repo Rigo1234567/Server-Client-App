@@ -1,0 +1,11 @@
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_datos\obj\Debug\servidor_datos.csprojAssemblyReference.cache
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_datos\obj\Debug\servidor_datos.csproj.CoreCompileInputs.cache
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_datos\bin\Debug\servidor_datos.dll
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_datos\bin\Debug\servidor_datos.pdb
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_datos\bin\Debug\entities.dll
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_datos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_datos\bin\Debug\entities.pdb
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_datos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_datos\obj\Debug\servidor_datos.csproj.CopyComplete
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_datos\obj\Debug\servidor_datos.dll
+C:\Users\rodrigo\Desktop\tarea2progra\servidor\servidor\servidor_datos\obj\Debug\servidor_datos.pdb

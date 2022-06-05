@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{25194D80-DB46-4456-B0B9-A922D39113AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>app</RootNamespace>
+    <AssemblyName>app</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.6.0.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.6.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.6.0.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="acciones_formulario.cs" />
+    <Compile Include="forms\frmasignar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmasignar.Designer.cs">
+      <DependentUpon>frmasignar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frminicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frminicio.Designer.cs">
+      <DependentUpon>frminicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmmostrarclientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmmostrarclientes.Designer.cs">
+      <DependentUpon>frmmostrarclientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmmostrarsedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmmostrarsedes.Designer.cs">
+      <DependentUpon>frmmostrarsedes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmsede.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmsede.Designer.cs">
+      <DependentUpon>frmsede.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\mostrarcupos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\mostrarcupos.Designer.cs">
+      <DependentUpon>mostrarcupos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcliente.Designer.cs">
+      <DependentUpon>frmcliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcupos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcupos.Designer.cs">
+      <DependentUpon>frmcupos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mostrarafiliaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mostrarafiliaciones.Designer.cs">
+      <DependentUpon>mostrarafiliaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="forms\frmasignar.resx">
+      <DependentUpon>frmasignar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frminicio.resx">
+      <DependentUpon>frminicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmmostrarclientes.resx">
+      <DependentUpon>frmmostrarclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmmostrarsedes.resx">
+      <DependentUpon>frmmostrarsedes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmsede.resx">
+      <DependentUpon>frmsede.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\mostrarcupos.resx">
+      <DependentUpon>mostrarcupos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcliente.resx">
+      <DependentUpon>frmcliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcupos.resx">
+      <DependentUpon>frmcupos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mostrarafiliaciones.resx">
+      <DependentUpon>mostrarafiliaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\servidor\servidor\servidor_datos\servidor_datos.csproj">
+      <Project>{c24952b2-3580-42ed-84ee-23dc2746a24b}</Project>
+      <Name>servidor_datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\servidor\servidor\servidor_interfaz\servidor_interfaz.csproj">
+      <Project>{a07d9316-c89c-4286-8f18-2c325a839e7a}</Project>
+      <Name>servidor_interfaz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\business\business.csproj">
+      <Project>{a373a653-5e31-4609-950e-c86bbae155bc}</Project>
+      <Name>business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entities\entities.csproj">
+      <Project>{18590146-81da-4a46-8407-1ff8fbc663b7}</Project>
+      <Name>entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gym.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
